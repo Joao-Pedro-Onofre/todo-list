@@ -1,0 +1,53 @@
+.add-items {
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.d-flex {
+  display: flex !important;
+}
+.add-items input[type="text"] {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 100%;
+  background: transparent;
+}
+.form-control {
+  border: 1px solid #f3f3f3;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.875rem 1.375rem;
+  font-size: 1rem;
+  line-height: 1;
+  color: #495057;
+  background-color: #ffffff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  transition:
+    border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+.add-items .btn {
+  margin-left: 0.5rem;
+}
+.add-items {
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.add-items input[type="text"] {
+  border-radius: 10px;
+  width: 100%;
+  background: transparent;
+  margin-right: 10px;
+}
+
+.todo-list-add-btn {
+  padding: 5px 20px;
+  background-color: #0e2a47;
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
