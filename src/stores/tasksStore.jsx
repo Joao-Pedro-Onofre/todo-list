@@ -110,11 +110,14 @@ export function TasksProvider({ children }) {
     });
   }
 
-  const value = useMemo(
-    () => ({ tasks, addTask, deleteTask, updateTask, toggleTask }),
-    [tasks],
-  );
+  //objeto que contem
+  /**
+   * state (tasks)
+   * ações (addTask, deleteTask, etc)
+   */
+  const value = { tasks, addTask, deleteTask, updateTask, toggleTask };
 
+  // Isto quer dizer que tudo o que estiver dentro do TasksContext consegue aceder a este value
   return (
     <TasksContext.Provider value={value}>{children}</TasksContext.Provider>
   );
